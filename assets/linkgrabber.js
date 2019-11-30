@@ -1,0 +1,1 @@
+var products = JSON.parse(fs.readFileSync("ecomhunt.json"));

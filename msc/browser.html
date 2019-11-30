@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="multitab.css">
+<script src="multitab.js"></script>
+</head>
+<body>
+
+<div class="tab">
+    <a href="#"onclick="openCity(event, 'eh')"><img src="images/logoEH.png"></a>
+    <a href="#" class="tablinks" onclick="openCity(event, 'nf')"><img src="images/logoNF.png"></a>
+    <a href="#" target="blank"><img src="images/logoAL-off.png"></a>
+    <a href="#" target="blank"><img src="images/logoALB-off.png"></a>
+    <a href="#" target="blank"><img src="images/logoAMZ-off.png"></a>
+    <a href="#" target="blank"><img src="images/logoEB-off.png"></a>
+    <a href="#" target="blank"><img src="images/logoFB-off.png"></a>
+    <a href="#" target="blank"><img src="images/logoYT-off.png"></a>
+</div>
+
+<div id="eh" class="tabcontent">
+    <div> 
+        <object type="text/html" data="http://google.com/" width="100%" height="3500px" style="overflow:auto;border:5px ridge blue">
+        </object>
+     </div>
+</div>
+
+<div id="nf" class="tabcontent">
+  <iframe width="100%" src="https://nicheforest.com/login"></iframe>
+</div>
+</body>
+</html> 

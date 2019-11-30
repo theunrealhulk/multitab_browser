@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="assets/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="assets/materialize.min.js"></script>
+    <title>Cross Sites tool</title>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+    <!-- multitab css -->
+    <link rel="stylesheet" href="assets/multitab.css">
+    <!-- multitab js -->
+    <script src="assets/multitab.js"></script>
+    <script src="assets/linkloader.js"></script>
+</head>
+<body>
+    <ul id="nav-mobile" class="sidenav sidenav-fixed" width:20%>
+        <!-- load the rest of links dynamicly check linkloader.ja -->
+    </ul>
+
+    <!-- multiple tabs browser -->
+   
+        <div class="wrapper right-align">
+            <div class="tab">
+                <a href="#"onclick="openCity(event, 'eh')"><img src="images/logoEH.png"></a>
+                <a href="#" class="tablinks" onclick="openCity(event, 'nf')"><img src="images/logoNF.png"></a>
+                <!-- <button id="mbtn" class="btn btn-large purple waves-effect">Migrate details</button> -->
+                <!-- <a href="#" target="blank"><img src="images/logoAL-off.png"></a>
+                <a href="#" target="blank"><img src="images/logoALB-off.png"></a>
+                <a href="#" target="blank"><img src="images/logoAMZ-off.png"></a>
+                <a href="#" target="blank"><img src="images/logoEB-off.png"></a>
+                <a href="#" target="blank"><img src="images/logoFB-off.png"></a>
+                <a href="#" target="blank"><img src="images/logoYT-off.png"></a> -->
+            </div>
+            <div id="eh" class="tabcontent">
+                <iframe width="100%" src="https://ecomhunt.com/"></iframe>
+            </div>
+            <div id="nf" class="tabcontent">
+                <iframe width="100%" src="https://nicheforest.com/dashboard/products/new"></iframe>
+            </div>
+        </div>
+
+</body>
+</html>
